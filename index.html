@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I PUC English Assignment — Topics 13, 14 &amp; 15</title>
+<meta name="description" content="I PUC English Assignment — Topics 13, 14 and 15">
+<style>
+:root{--ink:#20242b;--muted:#667085;--accent:#6b3fa0;--paper:#fffdf8;--soft:#f4f0f8;--line:#e6e0ec}
+*{box-sizing:border-box}
+body{margin:0;background:#ece9e3;color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.75}
+.page{max-width:900px;margin:32px auto;background:var(--paper);padding:54px 68px;box-shadow:0 8px 30px #00000016}
+.cover{min-height:70vh;display:flex;flex-direction:column;justify-content:center;text-align:center;border-bottom:1px solid var(--line)}
+.kicker{letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font:700 13px Arial,sans-serif}
+h1{font-size:42px;line-height:1.15;margin:18px 0;color:#241b2e}
+.subtitle{font-size:18px;color:var(--muted)}
+.meta{margin-top:50px;display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;font-family:Arial,sans-serif}
+.meta div{padding:14px;background:var(--soft);border-radius:10px}
+h2{font-size:27px;line-height:1.25;margin:42px 0 14px;color:#3d2854}
+p{font-size:17px;margin:0 0 15px}
+.visual{margin:28px 0 36px;padding:18px;background:#f7f4f0;border:1px solid var(--line);border-radius:14px;text-align:center}
+.visual svg{width:100%;max-height:240px}
+figcaption{font:600 14px Arial,sans-serif;color:var(--muted);margin-top:8px}
+.quote{border-left:4px solid var(--accent);padding:12px 18px;margin:18px 0;background:#faf7fc;font-style:italic}
+.sources{margin-top:55px;padding-top:25px;border-top:1px solid var(--line)}
+.sources a{color:#55327e}
+.small{font:14px Arial,sans-serif;color:var(--muted)}
+@media(max-width:700px){.page{margin:0;padding:30px 24px}h1{font-size:32px}p{font-size:16px}.meta{grid-template-columns:1fr}}
+@media print{body{background:#fff}.page{box-shadow:none;margin:0;max-width:none}.cover{min-height:95vh}}
+
+.tabs{position:sticky;top:0;z-index:20;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:12px 16px;background:rgba(255,253,248,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);font-family:Arial,sans-serif}
+.tab{border:1px solid var(--line);background:#fff;padding:10px 18px;border-radius:999px;cursor:pointer;font-weight:700;color:#4b3a58}
+.tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.topic-panel{display:block}
+.topic-panel.hidden{display:none}
+.topic-cover{min-height:62vh;display:flex;flex-direction:column;justify-content:center;text-align:center;border-bottom:1px solid var(--line)}
+.badge{display:inline-block;margin:8px auto;padding:7px 13px;border-radius:999px;background:var(--soft);color:var(--accent);font:700 12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.comparison{width:100%;border-collapse:collapse;margin:24px 0 30px;font-family:Arial,sans-serif;font-size:15px}
+
+.photo-card{margin:28px auto 34px;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;text-align:center;max-width:620px;box-shadow:0 5px 18px #00000010}
+.photo-card img{display:block;width:100%;max-height:430px;object-fit:cover}
+.photo-card figcaption{padding:10px 14px 13px}
+.small-photo{max-width:420px}
+.highlight{margin:24px 0;padding:16px 18px;border-left:5px solid var(--accent);background:#faf7fc;border-radius:8px;font-family:Arial,sans-serif}
+.fallback-note{display:none;padding:18px;font:14px Arial,sans-serif;color:var(--muted)}
+@media print{.photo-card{break-inside:avoid;box-shadow:none}.photo-card img{max-height:330px}.topic-panel{display:block!important}.topic-panel.hidden{display:block}}
+
+.comparison th,.comparison td{border:1px solid var(--line);padding:10px;text-align:left}
+
+.photo-card{margin:28px auto 34px;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;text-align:center;max-width:620px;box-shadow:0 5px 18px #00000010}
+.photo-card img{display:block;width:100%;max-height:430px;object-fit:cover}
+.photo-card figcaption{padding:10px 14px 13px}
+.small-photo{max-width:420px}
+.highlight{margin:24px 0;padding:16px 18px;border-left:5px solid var(--accent);background:#faf7fc;border-radius:8px;font-family:Arial,sans-serif}
+.fallback-note{display:none;padding:18px;font:14px Arial,sans-serif;color:var(--muted)}
+@media print{.photo-card{break-inside:avoid;box-shadow:none}.photo-card img{max-height:330px}.topic-panel{display:block!important}.topic-panel.hidden{display:block}}
+
+.comparison th{background:var(--soft);color:#3d2854}
+.note{padding:15px 18px;background:#faf7fc;border-left:4px solid var(--accent);border-radius:8px;margin:20px 0}
+@media print{
+  .tabs{display:none}
+  .topic-panel,.topic-panel.hidden{display:block}
+  .topic-panel{page-break-before:always}
+  .topic-panel:first-child{page-break-before:auto}
+}
+
+</style>
+</head>
+<body>
+<nav class="tabs" aria-label="Assignment topics">
+<button type="button" class="tab" data-target="topic13">Topic 13 • Women Achievers</button>
+<button type="button" class="tab" data-target="topic15">Topic 15 • Money & Greed</button>
+<button type="button" class="tab" data-target="topic14">Topic 14 • Forms of Poetry</button>
+</nav>
+<main class="page">
+<div id="topic15" class="topic-panel">
+<header class="cover">
+<div class="kicker">I PUC English Assignment • Topic 15</div>
+<h1>If Money Is the Root of All Evil, Then Greed Is the Seed</h1>
+<p class="subtitle">A simple study of money, greed, happiness, relationships and values</p>
+<div class="meta">
+<div><strong>Student:</strong><br>________________________</div>
+<div><strong>Class / Section:</strong><br>________________________</div>
+<div><strong>College:</strong><br>MES PU College of Arts, Commerce &amp; Science</div>
+<div><strong>Academic Year:</strong><br>2026</div>
+</div>
+</header>
+<section><h2>Introduction</h2><p>Money is a part of everyone&#x27;s life. We need money for food, education, a house, travelling, medical expenses and many other things. So, money itself cannot really be called bad. In fact, having enough money can make life easier and can help us take care of our family.</p><p>The Bible gives a balanced view of this. At 1 Timothy 6:10, it says that “the love of money is a root of all sorts of injurious things.” This does not mean that money itself is evil. It is the love of money that can cause problems.</p><p>This is why I find the statement “If money is the root of all evil, then greed is the seed” interesting. Greed may start as a small desire, but if we keep feeding it, it can become a major part of our life.</p><p>In this essay, I would like to look at why people want money, how greed develops, how it affects people and relationships, and how we can maintain a balanced view of money.</p></section><section><h2>Money Is Important in Our Life</h2><p>We cannot deny that money is necessary.</p><p>A student needs money for education. A family needs money for food and a home. We need money for transport, clothing and medical treatment. People also save money for emergencies and for their future.</p><p>Money can also be used in a good way. Someone may use it to help a family member, support a person in need or donate to a good cause.</p><p>So, earning money through honest work is not wrong.</p><p>The problem comes when money becomes the most important thing in a person&#x27;s life.</p><p>A person may begin to think that the more money he has, the happier and more successful he will be. Slowly, he may start measuring his success by his bank balance, house, car or other possessions.</p><p>That is where a healthy desire for financial security can turn into greed.</p><figure class="visual"><svg viewBox="0 0 700 260" role="img" aria-label="Illustration of coins and a wallet"><rect x="20" y="45" width="260" height="150" rx="24" fill="#f4ead7"/><circle cx="390" cy="130" r="70" fill="#d8b35a"/><circle cx="510" cy="105" r="48" fill="#e0c273"/><circle cx="585" cy="160" r="38" fill="#c99f45"/><text x="150" y="135" text-anchor="middle" font-size="42" font-weight="700" fill="#493b25">MONEY</text><text x="390" y="142" text-anchor="middle" font-size="34" font-weight="700" fill="#594517">₹</text></svg><figcaption>Money is useful, but it should remain a tool.</figcaption></figure></section><section><h2>What Is Greed?</h2><p>Greed is an excessive desire to have more money, possessions or wealth.</p><p>A greedy person is not necessarily a rich person. Even someone who has very little can be greedy. It is more about our attitude than about the amount of money we have.</p><p>For example, suppose someone buys a new phone. After a few months, he sees a newer and more expensive phone. His old phone still works perfectly, but he now feels that he needs the new one.</p><p>The same thing can happen with clothes, cars, houses and many other things.</p><p>There is nothing wrong with wanting to improve our life. But if we are never satisfied, then we have a problem.</p><p>This is why I think greed is like a seed. A seed starts small, but if it is watered and allowed to grow, it becomes much bigger. In the same way, a small desire for more can slowly become greed.</p></section><section><h2>Why Do People Always Want More?</h2><p>One reason is comparison.</p><p>We often compare ourselves with other people. If someone has a better car, bigger house or more expensive phone, we may start thinking that we also need those things.</p><p>Social media can make this even worse. We see people posting pictures of holidays, cars, clothes and expensive restaurants. We usually see only the best part of their life.</p><p>Then we may start thinking, “Why don&#x27;t I have what they have?”</p><p>Advertising also encourages us to keep buying. Every day we are told that we need something newer or better.</p><p>This can create a simple cycle:</p><p>See something → Want it → Buy it → Enjoy it for some time → See something better → Want it again.</p><p>If we are not careful, we can spend our whole life following this cycle.</p><figure class="visual"><svg viewBox="0 0 700 260" role="img" aria-label="Illustration showing comparison and desire"><rect x="35" y="65" width="160" height="130" rx="18" fill="#eee"/><rect x="270" y="35" width="160" height="160" rx="18" fill="#ddd"/><rect x="505" y="10" width="160" height="185" rx="18" fill="#ccc"/><path d="M120 225 C250 205 400 220 580 190" fill="none" stroke="#6b5b95" stroke-width="6"/><text x="350" y="245" text-anchor="middle" font-size="24" fill="#333">Compare → Want → Buy → Want more</text></svg><figcaption>The cycle of wanting more.</figcaption></figure></section><section><h2>Greed Can Affect Relationships</h2><p>Money is important, but relationships are more important.</p><p>Sometimes people become so busy trying to earn money that they forget to spend time with their family.</p><p>A parent may work long hours to provide expensive things for the children. That is understandable. But children also need their parents&#x27; time and attention.</p><p>A husband and wife also need time to talk and spend time together.</p><p>Money can buy a nice house, but it cannot create a happy family.</p><p>It can buy an expensive gift, but it cannot replace love and attention.</p><p>This is why we need balance. Working hard is good, but we should not sacrifice everything just to earn more money.</p><p>At the end of life, most people will probably remember the people they loved and the experiences they shared, rather than the things they bought.</p></section><section><h2>When Greed Leads to Wrong Actions</h2><p>Greed can sometimes make people do things that they normally would not do.</p><p>A person may lie to make more money. Someone may cheat a customer. Another person may accept a bribe or misuse money belonging to someone else.</p><p>At first, the person may feel guilty. But if he keeps doing it, he may slowly stop feeling bad about it.</p><p>There are many examples of corruption and financial fraud in the world. What is interesting is that some people involved in these things were already wealthy. They still wanted more.</p><p>This shows that greed does not always come from poverty.</p><p>Sometimes the problem is simply that a person never feels that he has enough.</p><p>Having less money but being honest and having peace of mind is better than becoming rich through dishonest ways.</p></section><section><h2>Greed Can Affect Society</h2><p>Greed does not affect only one person. It can affect many people.</p><p>Businesses are important because they provide jobs and useful products. Making a profit is also necessary for a business to survive.</p><p>But when making money becomes more important than everything else, problems can arise.</p><p>For example, a company may treat workers unfairly just to reduce costs. Another company may sell poor-quality products simply to make more profit.</p><p>Greed can also lead to corruption and exploitation.</p><p>This does not mean that every successful business or wealthy person is greedy. Many successful people work honestly and use their money responsibly.</p><p>The important thing is that profit should not come at the cost of honesty and concern for other people.</p><figure class="visual"><svg viewBox="0 0 700 260" role="img" aria-label="Illustration of business and society"><rect x="60" y="90" width="160" height="110" fill="#d9d9d9"/><rect x="270" y="55" width="160" height="145" fill="#c9c9c9"/><rect x="480" y="115" width="160" height="85" fill="#e2e2e2"/><path d="M140 90 L140 55 L350 55 L350 30 L560 30 L560 115" fill="none" stroke="#555" stroke-width="7"/><text x="350" y="235" text-anchor="middle" font-size="24" fill="#333">Business • Workers • Society</text></svg><figcaption>Profit should not come at the cost of people.</figcaption></figure></section><section><h2>Does Money Really Make Us Happy?</h2><p>Money can certainly make some things easier.</p><p>It can provide a comfortable home and allow us to afford good education, healthcare and other necessities.</p><p>But can money alone make us happy?</p><p>I don&#x27;t think so.</p><p>A person can have a lot of money and still be lonely. Another person may not be very wealthy but may have a loving family and good friends and be genuinely happy.</p><p>Money can buy a bed, but it cannot guarantee good sleep.</p><p>It can buy a house, but it cannot make a family happy.</p><p>It can buy entertainment, but it cannot give us lasting peace of mind.</p><p>This is why we should not measure our success only by what we own.</p></section><section><h2>What Does the Bible Say?</h2><p>As a Christian, I find the Bible&#x27;s advice on money very practical.</p><p>The Bible does not say that having money is wrong. Instead, it warns about the love of money.</p><p>At 1 Timothy 6:9, 10, the Bible warns that those determined to become rich can fall into temptation and harmful desires. It then says that the love of money can lead to many injurious things.</p><p>Jesus also warned about greed. At Luke 12:15, he said: “Keep your eyes open and guard against every sort of covetousness.”</p><p>I think this is especially relevant today. We often judge success by someone&#x27;s car, house, clothes, phone or salary.</p><p>The Bible reminds us that these things are not what give our life real value.</p><p>It is possible to have money and still be content. It is also possible to have very little and still be greedy.</p><p>So the real issue is not how much we have, but how we view what we have.</p></section><section><h2>Contentment Is Important</h2><p>One good way to avoid greed is to learn to be content.</p><p>Being content does not mean that we should stop having goals. We can still work hard, study well and try to improve our situation.</p><p>It simply means that we should appreciate what we already have.</p><p>We can also learn to separate needs from wants.</p><p>Food is a need. Eating at an expensive restaurant every week is a want.</p><p>A phone is useful. Buying the latest phone every year, even when the old one works, may simply be a want.</p><p>There is nothing wrong with enjoying good things. But we should not allow them to control us.</p><p>A contented person can say: “I would like to have more, but I can still be happy with what I have.”</p><figure class="visual"><svg viewBox="0 0 700 260" role="img" aria-label="Illustration of family and contentment"><circle cx="270" cy="95" r="38" fill="#bdbdbd"/><circle cx="430" cy="95" r="38" fill="#a9a9a9"/><circle cx="350" cy="70" r="28" fill="#d0d0d0"/><path d="M210 205 Q270 125 330 205 M370 205 Q430 125 490 205 M305 205 Q350 130 395 205" fill="none" stroke="#555" stroke-width="12"/><text x="350" y="245" text-anchor="middle" font-size="25" fill="#333">Time together is valuable</text></svg><figcaption>Contentment brings balance.</figcaption></figure></section><section><h2>Generosity Is the Opposite of Greed</h2><p>Greed is about getting more.</p><p>Generosity is about giving.</p><p>We do not have to be rich to help others. Even a small act of kindness can mean a lot to someone.</p><p>We can help a friend, support a family member, share something with someone or contribute to a person who is in need.</p><p>The Bible encourages Christians to be generous. Acts 20:35 also reminds us that “there is more happiness in giving than there is in receiving.”</p><p>This is a very practical principle.</p><p>When we are always thinking about what we can get, we can become selfish. When we think about what we can give, we become more aware of other people&#x27;s needs.</p><p>Money can therefore be used in a much better way than simply collecting it.</p></section><section><h2>How Can We Avoid Greed?</h2><p>There are some simple things we can do.</p><p>1. Be thankful for what we already have.
+2. Avoid constantly comparing ourselves with others.
+3. Think carefully before buying something and ask whether we really need it.
+4. Learn to save and manage money properly instead of spending it carelessly.
+5. Be generous and help people who need assistance.
+6. Remember that relationships and good values are more important than possessions.</p><p>For a Christian, keeping a good relationship with Jehovah is also more valuable than gaining material wealth.</p><figure class="visual"><svg viewBox="0 0 700 260" role="img" aria-label="Balance scale showing money and values"><line x1="350" y1="45" x2="350" y2="210" stroke="#555" stroke-width="10"/><line x1="175" y1="95" x2="525" y2="95" stroke="#555" stroke-width="8"/><path d="M175 95 L110 185 L240 185 Z" fill="#e3e3e3" stroke="#555" stroke-width="4"/><path d="M525 95 L460 185 L590 185 Z" fill="#e3e3e3" stroke="#555" stroke-width="4"/><text x="175" y="155" text-anchor="middle" font-size="25" font-weight="700">MONEY</text><text x="525" y="145" text-anchor="middle" font-size="22" font-weight="700">VALUES</text><text x="525" y="170" text-anchor="middle" font-size="18">FAMILY • HONESTY</text><circle cx="350" cy="45" r="18" fill="#777"/></svg><figcaption>Money, values, family and happiness need balance.</figcaption></figure></section><section><h2>Money Should Be a Tool, Not a Master</h2><p>The best way to look at money is to see it as a tool.</p><p>A tool is useful when we control it. Money is useful when we control how we earn and spend it. But when money begins to control our decisions, it becomes a problem.</p><p>Two people may earn the same amount of money but have completely different attitudes.</p><p>One may use his money responsibly, save some, enjoy some and help others.</p><p>Another may spend his entire life worrying about how to get more.</p><p>The difference is not necessarily the amount of money they have. It is their attitude toward it.</p><p>Money should help us live our lives. It should not become the reason for everything we do.</p></section><section><h2>Conclusion</h2><p>The statement “If money is the root of all evil, then greed is the seed” teaches us an important lesson.</p><p>Money itself is not bad. We need it and can use it for many good purposes. The problem starts when our desire for money becomes so strong that we are never satisfied.</p><p>Greed can start with something very small. We may simply want something because another person has it. But if we keep feeding that desire, it can grow and affect our thinking and our decisions.</p><p>It can even affect our family, friendships, honesty and happiness.</p><p>The Bible&#x27;s warning at 1 Timothy 6:10 is therefore very meaningful. It reminds us not to allow the love of money to become more important than the things that really matter.</p><p>In my opinion, having money is not the same as being successful.</p><p>A person who has less but is honest, content and surrounded by people who love him may actually be much richer than someone who has everything but is never satisfied.</p><p>Money is useful when we control it.</p><p>But when money controls us, we have a problem.</p><p>So instead of always asking, “How can I get more?”, perhaps we should ask:</p><p>“Do I have enough, and am I using what I have in the right way?”</p><p>That is how we can keep greed from becoming the seed of bigger problems.</p></section>
+<div class="sources">
+<h2>References &amp; Picture Sources</h2>
+<p class="small">The Bible references used in this assignment are mainly from JW.org. The illustrations above are original simple SVG drawings created for this page, so they can be used freely with the assignment.</p>
+<ul>
+<li><a href="https://www.jw.org/en/bible-teachings/questions/money-root-of-evil/" target="_blank" rel="noopener">JW.org — Is Money the Root of All Evil?</a></li>
+<li><a href="https://www.jw.org/en/library/bible/nwt/books/1-timothy/6/" target="_blank" rel="noopener">JW.org — 1 Timothy 6</a></li>
+<li><a href="https://www.jw.org/en/library/magazines/g201403/money/" target="_blank" rel="noopener">JW.org — Money: What the Bible Says</a></li>
+<li><a href="https://www.jw.org/en/library/magazines/w20010615/How-Can-You-Keep-a-Balanced-View-of-Money/" target="_blank" rel="noopener">JW.org — How Can You Keep a Balanced View of Money?</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Greed.jpg" target="_blank" rel="noopener">Wikimedia Commons — Greed.jpg</a> (optional external picture)</li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Circular_floating_coins.jpg" target="_blank" rel="noopener">Wikimedia Commons — Circular floating coins</a> (CC0)</li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Penny_coins.jpg" target="_blank" rel="noopener">Wikimedia Commons — Penny coins</a> (public domain)</li>
+</ul>
+<p class="small">Tip: If you print this page, the five original illustrations can be used as visual references for drawings in the blue book.</p>
+
+</div>
+
+<div id="topic14" class="topic-panel hidden">
+<header class="topic-cover">
+  <div class="kicker">I PUC English Assignment • Topic 14</div>
+  <div class="badge">Poetry</div>
+  <h1>Analyse Different Forms of Poetry with Suitable Examples</h1>
+  <p class="subtitle">A simple study of different poetic forms and how they are used</p>
+  <div class="meta">
+    <div><strong>Student:</strong><br>________________________</div>
+    <div><strong>Class / Section:</strong><br>________________________</div>
+    <div><strong>College:</strong><br>MES PU College of Arts, Commerce &amp; Science</div>
+    <div><strong>Academic Year:</strong><br>2026</div>
+  </div>
+</header>
+
+<section>
+<h2>Introduction</h2>
+<p>Poetry is one of the oldest and most interesting forms of literature. We often think of poetry as just a collection of rhyming lines, but poetry can be much more than that. A poem can express feelings, tell a story, describe nature, remember someone who has died, or even show the thoughts of a particular person.</p>
+<p>Poets use different forms of poetry depending on what they want to express. Some poems are short and personal, while others can tell long stories about heroes and adventures. Some follow fixed patterns, while others are written more freely.</p>
+<p>Some important forms of poetry are <strong>lyric, sonnet, ode, elegy, ballad, epic, dramatic monologue and free verse.</strong></p>
+<figure class="visual">
+<svg viewBox="0 0 700 250" role="img" aria-label="Poetry notebook and pen illustration">
+  <rect x="145" y="35" width="410" height="175" rx="14" fill="#eee7f4" stroke="#6b3fa0" stroke-width="3"/>
+  <line x1="185" y1="80" x2="500" y2="80" stroke="#8f7aa3" stroke-width="4"/>
+  <line x1="185" y1="115" x2="470" y2="115" stroke="#8f7aa3" stroke-width="4"/>
+  <line x1="185" y1="150" x2="505" y2="150" stroke="#8f7aa3" stroke-width="4"/>
+  <line x1="185" y1="185" x2="430" y2="185" stroke="#8f7aa3" stroke-width="4"/>
+  <path d="M530 30 L625 125 L600 150 L505 55 Z" fill="#d2b37b" stroke="#594517" stroke-width="4"/>
+  <path d="M505 55 L530 30 L555 55 L530 80 Z" fill="#f1dfb9"/>
+  <text x="350" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#3d2854">Different forms give poets different ways to express ideas.</text>
+</svg>
+<figcaption>Poetry can express feelings, ideas, stories and experiences in many forms.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>1. Lyric Poetry</h2>
+<p>Lyric poetry mainly expresses the <strong>feelings, thoughts or emotions</strong> of the poet or the speaker in the poem. It is usually not meant to tell a long story. Instead, it focuses on a particular feeling or experience.</p>
+<p>For example, <strong>“Daffodils” by William Wordsworth</strong> describes the beauty of nature. The poet remembers seeing a large number of daffodils and explains how the memory of those flowers continues to give him happiness.</p>
+<p>Lyric poetry is often easy to connect with because it talks about feelings that many people experience, such as happiness, love, loneliness, sadness or appreciation of nature.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>Expresses feelings and thoughts</li>
+<li>Usually shorter in length</li>
+<li>Often has a musical quality</li>
+<li>Focuses more on emotion than on a complete story</li>
+</ul>
+<p><strong>Example:</strong> <em>Daffodils</em> – William Wordsworth</p>
+</section>
+
+<section>
+<h2>2. Sonnet</h2>
+<p>A <strong>sonnet is a poem of 14 lines</strong>. It is one of the most well-known fixed forms of poetry. Sonnets often deal with love, beauty, nature, time or other important thoughts.</p>
+<p>There are different types of sonnets. Two famous ones are the <strong>Petrarchan sonnet</strong> and the <strong>Shakespearean sonnet</strong>. Shakespeare's sonnets generally have three groups of four lines followed by a final two-line section.</p>
+<p>A good example is <strong>Shakespeare's Sonnet 18</strong>. The poem compares a person with a summer's day and talks about beauty and how poetry can preserve it.</p>
+<p>What makes the sonnet interesting is that the poet has only a small number of lines to develop an idea. Therefore, every line has to contribute something meaningful.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>14 lines</li>
+<li>Usually has a rhyme pattern</li>
+<li>Often deals with one main idea or emotion</li>
+<li>May contain a change or new thought towards the end</li>
+</ul>
+<p><strong>Example:</strong> <em>Sonnet 18</em> – William Shakespeare</p>
+<figure class="visual">
+<svg viewBox="0 0 700 240" role="img" aria-label="Fourteen line sonnet illustration">
+  <rect x="105" y="25" width="490" height="190" rx="12" fill="#f7f4f0" stroke="#6b3fa0" stroke-width="3"/>
+  <g stroke="#777" stroke-width="3">
+    <line x1="145" y1="50" x2="555" y2="50"/><line x1="145" y1="63" x2="530" y2="63"/>
+    <line x1="145" y1="82" x2="555" y2="82"/><line x1="145" y1="95" x2="510" y2="95"/>
+    <line x1="145" y1="114" x2="555" y2="114"/><line x1="145" y1="127" x2="525" y2="127"/>
+    <line x1="145" y1="146" x2="555" y2="146"/><line x1="145" y1="159" x2="515" y2="159"/>
+    <line x1="145" y1="178" x2="555" y2="178"/><line x1="145" y1="191" x2="535" y2="191"/>
+  </g>
+  <text x="350" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#3d2854">14 lines → one focused idea or emotion</text>
+</svg>
+<figcaption>A sonnet traditionally has fourteen lines.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>3. Ode</h2>
+<p>An <strong>ode</strong> is a poem that expresses praise, admiration or deep thought about a person, place, object, idea or experience.</p>
+<p>One famous example is <strong>“Ode to a Nightingale” by John Keats</strong>. Keats uses the song of a nightingale to think about beauty, happiness, suffering and human life.</p>
+<p>An ode does not simply describe something. The poet usually uses the subject to express deeper feelings or thoughts. For example, a poet may write an ode about nature and, while describing a beautiful tree, also think about life, time and change.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>Expresses admiration or deep reflection</li>
+<li>Usually focuses on one main subject</li>
+<li>Can have a serious or thoughtful tone</li>
+<li>Often connects the subject with bigger ideas</li>
+</ul>
+<p><strong>Example:</strong> <em>Ode to a Nightingale</em> – John Keats</p>
+</section>
+
+<section>
+<h2>4. Elegy</h2>
+<p>An <strong>elegy</strong> is a poem about <strong>death, loss and remembrance</strong>. It is usually written to express sadness after the death of someone, although it can also reflect on loss in a wider sense.</p>
+<p>An elegy often begins with feelings of sadness and may later move towards remembrance, acceptance or comfort.</p>
+<p>A famous example is <strong>“In Memoriam A.H.H.” by Alfred Lord Tennyson</strong>. Tennyson wrote it after the death of his close friend Arthur Henry Hallam. The poem reflects the poet's grief and his thoughts about life and death.</p>
+<p>Elegies are different from ordinary sad poems because they usually focus strongly on loss and remembrance.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>Deals with death or loss</li>
+<li>Expresses grief and sadness</li>
+<li>Remembers the person or thing that has been lost</li>
+<li>May gradually move towards acceptance or consolation</li>
+</ul>
+<p><strong>Example:</strong> <em>In Memoriam A.H.H.</em> – Alfred Lord Tennyson</p>
+</section>
+
+<section>
+<h2>5. Ballad</h2>
+<p>A <strong>ballad is a poem that tells a story</strong>. Traditional ballads were often meant to be sung or passed from one person to another. They usually have a strong rhythm and simple storytelling style.</p>
+<p>A ballad may contain characters, conversations, action and sometimes a surprising ending.</p>
+<p>One well-known example is <strong>“The Rime of the Ancient Mariner” by Samuel Taylor Coleridge</strong>. It tells the strange story of a sailor and the experiences he goes through during his journey at sea.</p>
+<p>Ballads are interesting because they combine <strong>poetry and storytelling</strong>. Instead of reading a normal story in paragraphs, we experience the story through verses.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>Tells a story</li>
+<li>Usually has rhythm and rhyme</li>
+<li>Can include dialogue</li>
+<li>Contains characters and events</li>
+<li>Often has an interesting or dramatic ending</li>
+</ul>
+<p><strong>Example:</strong> <em>The Rime of the Ancient Mariner</em> – S. T. Coleridge</p>
+</section>
+
+<section>
+<h2>6. Epic</h2>
+<p>An <strong>epic is a long narrative poem</strong> that usually tells about heroes, great adventures, battles or important events. The main character often faces difficult challenges and shows courage or determination.</p>
+<p>One of the most famous examples is <strong>“The Odyssey” by Homer</strong>. It tells the story of Odysseus and his long journey home after the Trojan War.</p>
+<p>Another famous example is <strong>“Paradise Lost” by John Milton</strong>, which deals with a much larger subject and contains important characters and events.</p>
+<p>Epic poems are usually much longer than ordinary poems because they have many events and characters.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>Usually very long</li>
+<li>Tells a large story</li>
+<li>Includes heroes and major challenges</li>
+<li>Often involves journeys, battles or adventures</li>
+<li>Deals with important events or ideas</li>
+</ul>
+<p><strong>Examples:</strong> <em>The Odyssey</em> – Homer; <em>The Iliad</em> – Homer; <em>Paradise Lost</em> – John Milton</p>
+<figure class="visual">
+<svg viewBox="0 0 700 250" role="img" aria-label="Epic hero journey illustration">
+  <path d="M80 190 C180 80 280 220 390 100 S570 80 630 170" fill="none" stroke="#6b3fa0" stroke-width="7"/>
+  <circle cx="160" cy="135" r="25" fill="#d2b37b" stroke="#594517" stroke-width="3"/>
+  <path d="M160 160 L160 205 M160 175 L140 190 M160 175 L182 190" stroke="#594517" stroke-width="6" stroke-linecap="round"/>
+  <path d="M390 100 L375 135 L405 135 Z" fill="#d8b35a" stroke="#594517" stroke-width="3"/>
+  <text x="350" y="235" text-anchor="middle" font-size="22" font-weight="700" fill="#3d2854">Hero • Journey • Challenge • Adventure</text>
+</svg>
+<figcaption>An epic usually follows a hero through major events and challenges.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>7. Dramatic Monologue</h2>
+<p>A <strong>dramatic monologue</strong> is a poem in which one person speaks to a silent listener. Through the speaker's words, we learn about the person's personality, thoughts and feelings.</p>
+<p>One of the best-known examples is <strong>“My Last Duchess” by Robert Browning</strong>.</p>
+<p>In this poem, a Duke is speaking to another person about his former wife. As he continues speaking, we slowly understand what kind of person he really is. His words reveal his pride, jealousy and controlling nature.</p>
+<p>This makes the dramatic monologue interesting because the speaker may reveal things about himself without directly saying them.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>One main speaker</li>
+<li>A silent listener is usually present</li>
+<li>The speaker reveals his personality</li>
+<li>Creates a dramatic situation</li>
+<li>The reader learns about the speaker through his words</li>
+</ul>
+<p><strong>Example:</strong> <em>My Last Duchess</em> – Robert Browning</p>
+<figure class="visual">
+<svg viewBox="0 0 700 230" role="img" aria-label="Dramatic monologue stage illustration">
+  <rect x="80" y="35" width="540" height="155" rx="10" fill="#eee7f4" stroke="#6b3fa0" stroke-width="3"/>
+  <circle cx="235" cy="100" r="28" fill="#d2b37b"/>
+  <path d="M235 128 L235 180 M235 145 L205 165 M235 145 L265 165" stroke="#594517" stroke-width="8" stroke-linecap="round"/>
+  <path d="M270 85 Q330 45 390 85" fill="none" stroke="#6b3fa0" stroke-width="5" stroke-dasharray="10 8"/>
+  <circle cx="495" cy="135" r="20" fill="#ddd" stroke="#777" stroke-width="3"/>
+  <text x="350" y="215" text-anchor="middle" font-size="21" font-weight="700" fill="#3d2854">One speaker → silent listener → personality revealed</text>
+</svg>
+<figcaption>The speaker's words reveal more than he may intend.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>8. Free Verse</h2>
+<p>Not all poems have to follow fixed rules. <strong>Free verse</strong> is poetry that does not follow a regular metre or a fixed rhyme scheme. It often follows the natural rhythm of speech.</p>
+<p>This gives poets more freedom to decide how their poem should look and sound.</p>
+<p>Free verse is common in modern poetry. The poet can decide where to break a line, how long the lines should be and whether or not to use rhyme.</p>
+<p>Because there are fewer fixed rules, the poet has more freedom to concentrate on the meaning and feeling of the poem.</p>
+<p><strong>Main features:</strong></p>
+<ul>
+<li>No fixed rhyme scheme</li>
+<li>No fixed metre</li>
+<li>Lines can be of different lengths</li>
+<li>Allows greater freedom of expression</li>
+</ul>
+<p><strong>Example:</strong> Many modern poems by poets such as <strong>Walt Whitman</strong> use free verse.</p>
+</section>
+
+<section>
+<h2>Simple Comparison of the Forms</h2>
+<table class="comparison">
+<thead><tr><th>Form</th><th>What it mainly does</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td><strong>Lyric</strong></td><td>Expresses feelings</td><td><em>Daffodils</em> – Wordsworth</td></tr>
+<tr><td><strong>Sonnet</strong></td><td>Develops an idea or emotion</td><td><em>Sonnet 18</em> – Shakespeare</td></tr>
+<tr><td><strong>Ode</strong></td><td>Praises or reflects on something</td><td><em>Ode to a Nightingale</em> – Keats</td></tr>
+<tr><td><strong>Elegy</strong></td><td>Expresses grief and remembrance</td><td><em>In Memoriam</em> – Tennyson</td></tr>
+<tr><td><strong>Ballad</strong></td><td>Tells a story</td><td><em>The Rime of the Ancient Mariner</em> – Coleridge</td></tr>
+<tr><td><strong>Epic</strong></td><td>Tells a long heroic story</td><td><em>The Odyssey</em> – Homer</td></tr>
+<tr><td><strong>Dramatic Monologue</strong></td><td>Reveals a character through speech</td><td><em>My Last Duchess</em> – Browning</td></tr>
+<tr><td><strong>Free Verse</strong></td><td>Allows free expression without a fixed form</td><td>Poems by Walt Whitman</td></tr>
+</tbody>
+</table>
+</section>
+
+<section>
+<h2>Why Are There Different Forms of Poetry?</h2>
+<p>There are different forms of poetry because <strong>different ideas need different ways of expression</strong>.</p>
+<p>For example, if a poet wants to express a personal feeling, lyric poetry may be suitable. If the poet wants to tell a long story about a hero, an epic would be more appropriate. If the poet wants to express grief after someone's death, an elegy would suit the purpose.</p>
+<p>A sonnet is useful when a poet wants to explore an idea in a small space. A ballad can make a story interesting through rhythm and verse. A dramatic monologue allows us to understand a character through his own words.</p>
+<p>So, the form of a poem is not just about how the poem looks. <strong>It also helps the poet communicate the message effectively.</strong></p>
+<div class="note">The form chosen by a poet can change how we experience the poem. A story, a personal feeling and a character's speech may all need different forms.</div>
+</section>
+
+<section>
+<h2>Poetry in Everyday Life</h2>
+<p>Poetry is not limited to old books and famous poets. We can find poetry in many parts of everyday life. Songs, greeting cards, speeches, social media posts and even advertisements sometimes use poetic language.</p>
+<p>People also write poems to express feelings that are difficult to explain in ordinary words. A few lines can sometimes express happiness, love, sadness or hope very powerfully.</p>
+<p>This is one reason poetry continues to remain popular even today.</p>
+</section>
+
+<section>
+<h2>Conclusion</h2>
+<p>Poetry has many different forms, and each form has its own purpose. <strong>Lyric poetry expresses feelings, a sonnet develops an idea in 14 lines, an ode praises or reflects, an elegy deals with loss, a ballad tells a story, an epic presents heroic events, a dramatic monologue reveals a character, and free verse gives the poet greater freedom.</strong></p>
+<p>Learning about these forms makes poetry easier and more interesting to understand. Instead of looking at a poem simply as a group of lines, we can ask why the poet chose that particular form and what effect it creates.</p>
+<p>In the end, poetry is mainly about <strong>expressing ideas and emotions in a creative way</strong>. The different forms simply give poets different ways of doing that.</p>
+</section>
+
+
+<section id="topic13" class="topic-panel hidden">
+<div class="page">
+  <div class="topic-cover">
+    <div class="kicker">I PUC English Assignment</div>
+    <span class="badge">Topic 13</span>
+    <h1>Women Achievers</h1>
+    <p class="subtitle">Marie Curie • Kalpana Chawla • Mary Kom • Sudha Murty</p>
+    <div class="meta">
+      <div><strong>Topic:</strong><br>Write brief notes on any four women achievers</div>
+      <div><strong>Approach:</strong><br>Four women from four different fields</div>
+      <div><strong>Fields:</strong><br>Science • Space • Sports • Literature &amp; Social Work</div>
+      <div><strong>Presentation:</strong><br>Pictures, achievement boxes and comparison table</div>
+    </div>
+  </div>
+
+  <h2>Introduction</h2>
+  <p>Women have achieved great things in almost every field. They have shown that success does not depend only on money, background or opportunities. It also depends on hard work, courage, determination and the willingness to continue even when things are difficult.</p>
+  <p>There are many women around the world who have inspired others through their achievements. Some have contributed to science, some to sports, some to space research and others to education, literature and society.</p>
+  <p>In this assignment, I have chosen four women achievers from different fields — <strong>Marie Curie, Kalpana Chawla, Mary Kom and Sudha Murty</strong>. Their lives are very different, but they all have one thing in common: they did not give up on their goals.</p>
+
+  <figure class="photo-card">
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Marie%20Curie%201903.jpg" alt="Marie Curie portrait" loading="lazy">
+    <figcaption>Marie Curie — a pioneer in science. Image: Wikimedia Commons, public domain.</figcaption>
+  </figure>
+
+  <h2>1. Marie Curie</h2>
+  <p class="subtitle"><strong>A Pioneer in Science</strong></p>
+  <p><strong>Field:</strong> Science and Research<br><strong>Born:</strong> 7 November 1867, Warsaw<br><strong>Known for:</strong> Research on radioactivity<br><strong>Nobel Prizes:</strong> Physics – 1903; Chemistry – 1911</p>
+  <p>Marie Curie was one of the most important scientists in history. She was born as <strong>Maria Skłodowska</strong> in Warsaw, Poland. From a young age, she was interested in learning and science. However, higher education was not easily available to women in her country at that time.</p>
+  <p>Marie later moved to Paris to continue her education at the Sorbonne. She studied physics and mathematics and worked extremely hard despite having limited financial resources.</p>
+  <p>She met <strong>Pierre Curie</strong>, who became her husband and also her scientific partner. Together, they studied radioactivity, a subject that was still not well understood at that time.</p>
+  <p>Marie and Pierre Curie carried out difficult experiments and eventually discovered two new elements, <strong>polonium and radium</strong>. Her work helped scientists understand radioactivity better and later contributed to its use in medicine.</p>
+  <p>In 1903, Marie Curie shared the <strong>Nobel Prize in Physics</strong> with Pierre Curie and Henri Becquerel. In 1911, she received the <strong>Nobel Prize in Chemistry</strong> for her work on radium and polonium. She became the first person to receive Nobel Prizes in two different scientific fields.</p>
+  <p>Her life was not easy. She faced financial difficulties, the loss of her husband and the difficulties that women scientists faced during her time. Still, she continued her research.</p>
+  <p>During the First World War, she promoted the use of X-rays and helped develop mobile radiography units that could be used to examine wounded soldiers.</p>
+  <p>Marie Curie's life teaches me that knowledge becomes powerful when it is combined with hard work and determination. She did not allow difficulties to stop her from learning. Her achievements also show that women can make a great contribution to science and to the world.</p>
+
+  <div class="highlight"><strong>Achievement to remember:</strong> Marie Curie received two Nobel Prizes in two different scientific fields.</div>
+
+  <figure class="photo-card small-photo">
+    <img src="https://www.nobelprize.org/uploads/2018/06/marie-curie-photo.jpg" alt="Marie Curie historical photograph" loading="lazy"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <figcaption class="fallback-note">Historical photographs of Marie Curie are available in the Nobel Prize photo gallery.</figcaption>
+  </figure>
+
+  <h2>2. Kalpana Chawla</h2>
+  <p class="subtitle"><strong>A Woman Who Reached for the Stars</strong></p>
+  <p><strong>Field:</strong> Space and Aerospace Engineering<br><strong>Born:</strong> 1 July 1961, Karnal, India<br><strong>Known for:</strong> NASA astronaut<br><strong>Space missions:</strong> STS-87 and STS-107</p>
+
+  <figure class="photo-card">
+    <img src="https://images.ctfassets.net/ssn6gmzvvg61/1oOX3mfX2FhPtafMwDz5jq/8d8fb7777d4a7cd0bd3376341709a68e/KSC-97PC-1655_large.jpeg" alt="Kalpana Chawla in NASA flight suit" loading="lazy">
+    <figcaption>Kalpana Chawla in her NASA flight suit. Photo: NASA.</figcaption>
+  </figure>
+
+  <p>Kalpana Chawla is one of the most inspiring women associated with space exploration. She was born in Karnal, India. From a young age, she developed an interest in flying and space.</p>
+  <p>She studied aeronautical engineering at Punjab Engineering College. Later, she went to the United States for higher studies in aerospace engineering. She completed her master's degree and then a doctorate in the same field.</p>
+  <p>Her hard work eventually took her to NASA. She was selected as an astronaut candidate in 1994 and completed the required training.</p>
+  <p>In 1997, Kalpana Chawla travelled into space for the first time aboard <strong>Space Shuttle Columbia</strong> on the STS-87 mission. She worked as a mission specialist and was involved in operating the shuttle's robotic arm.</p>
+  <p>She returned to space in 2003 as part of the <strong>STS-107</strong> mission. This was a scientific research mission in which the crew conducted many experiments in space.</p>
+  <p>Sadly, on February 1, 2003, Space Shuttle Columbia broke apart during its return to Earth, and Kalpana Chawla and the other crew members lost their lives.</p>
+  <p>Although her life ended tragically, her achievements continue to inspire millions of people, especially young students who dream of careers in science and space.</p>
+  <p>Kalpana Chawla's journey from a young girl in Karnal to a NASA astronaut shows how far a person can go when they have a dream and work hard towards it.</p>
+  <p>Her life teaches me to dream big and not limit myself because of where I come from. She showed that a person from an ordinary background can reach extraordinary heights through education and determination.</p>
+
+  <div class="highlight"><strong>Achievement to remember:</strong> Kalpana Chawla completed two space missions and spent more than 30 days in space during her career.</div>
+
+  <h2>3. Mary Kom</h2>
+  <p class="subtitle"><strong>The Magnificent Mary</strong></p>
+  <p><strong>Field:</strong> Boxing and Sports<br><strong>Born:</strong> 1 March 1983, Manipur, India<br><strong>Known for:</strong> International boxing champion<br><strong>Olympic achievement:</strong> Bronze medal, 2012</p>
+
+  <figure class="photo-card">
+    <img src="https://ignewsimg.s3.ap-northeast-1.wasabisys.com/CqnKqNAoxWq" alt="Mary Kom celebrating with the Indian flag" loading="lazy">
+    <figcaption>Mary Kom celebrating her Olympic achievement. Image source: published photo archive; achievement details checked against Boxing Federation of India.</figcaption>
+  </figure>
+
+  <p>Mary Kom is one of India's most successful women boxers. Her full name is <strong>Mangte Chungneijang Mary Kom</strong>. She comes from Manipur in north-eastern India.</p>
+  <p>Her journey was not easy. She grew up in a modest family and helped her parents with various responsibilities. She became interested in sports and eventually developed a passion for boxing.</p>
+  <p>Boxing was not a sport that many people expected women to take up, and Mary Kom also faced opposition. However, she continued training and worked hard to improve herself.</p>
+  <p>Her first major success came at the national level. She then started competing internationally and gradually became one of the leading women boxers in the world.</p>
+  <p>Mary Kom became a <strong>six-time world champion</strong> and achieved many other successes in international boxing. She won a <strong>bronze medal at the 2012 London Olympics</strong>, becoming the first Indian woman boxer to win an Olympic medal.</p>
+  <p>She also won gold at the Asian Games in 2014 and at the Commonwealth Games in 2018. Her achievements made her an important figure in Indian sport.</p>
+  <p>What makes Mary Kom's story special is that she continued her sporting career while also managing family responsibilities. She became a mother and still returned to the sport and continued competing at the highest level.</p>
+  <p>She is popularly known as <strong>“Magnificent Mary”</strong>, a name that suits her achievements very well.</p>
+  <p>Mary Kom teaches me that success does not come overnight. It requires regular practice, discipline and the courage to face failure.</p>
+  <p>Her story also shows that women can succeed in fields that were once considered mainly for men.</p>
+
+  <div class="highlight"><strong>Achievement to remember:</strong> Mary Kom is a six-time world champion and won an Olympic bronze medal in 2012.</div>
+
+  <h2>4. Sudha Murty</h2>
+  <p class="subtitle"><strong>A Life of Knowledge and Service</strong></p>
+  <p><strong>Field:</strong> Literature, Education and Social Work<br><strong>Born:</strong> 19 August 1950, Shiggaon, Karnataka<br><strong>Known for:</strong> Writing, education and philanthropy</p>
+
+  <figure class="photo-card">
+    <img src="https://images.indianexpress.com/2024/07/sudha-murty-1.jpg" alt="Sudha Murty portrait" loading="lazy">
+    <figcaption>Sudha Murty. Photo source: The Indian Express. Her official website is also listed in the references below.</figcaption>
+  </figure>
+
+  <p>Sudha Murty is a well-known Indian author, educator, engineer and philanthropist. She is also someone whose work has touched the lives of many people.</p>
+  <p>She was born in Shiggaon in Karnataka and developed a love for books and learning at an early age. She studied engineering and later completed a master's degree in computer science from the Indian Institute of Science in Bangalore.</p>
+  <p>Her career was also significant because she entered the engineering profession at a time when there were very few women in the field. She became the <strong>first woman engineer hired by TELCO</strong>, now known as Tata Motors.</p>
+  <p>Sudha Murty is perhaps best known to many people for her books. She has written books for both children and adults in English and Kannada. Some of her well-known works include <strong>Grandma's Bag of Stories, Three Thousand Stitches, Dollar Bahu</strong> and <strong>How I Taught My Grandmother to Read and Other Stories</strong>. Her writing is generally simple and often contains lessons about kindness, honesty, compassion and human values.</p>
+  <p>Her contribution is not limited to literature. She founded the <strong>Infosys Foundation</strong>, which has supported work in areas such as education, healthcare, rural development and social welfare. Her work has helped many people in different parts of India.</p>
+  <p>She has received several awards for her contributions. These include the <strong>Padma Shri in 2006</strong> and the <strong>Padma Bhushan in 2023</strong>. She has also received recognition for her contribution to literature and social work.</p>
+  <p>What I find interesting about Sudha Murty is that she has achieved success in different areas but is still known for her simple way of speaking and writing.</p>
+  <p>Her life teaches me that education is not only about getting a good career. It can also be used to help other people.</p>
+  <p>She also shows that success becomes more meaningful when we use our knowledge and resources to make life better for others.</p>
+
+  <div class="highlight"><strong>Achievement to remember:</strong> Sudha Murty has contributed to engineering, education, literature and social work and has received the Padma Shri and Padma Bhushan.</div>
+
+  <h2>A Simple Comparison</h2>
+  <table class="comparison">
+    <thead><tr><th>Woman</th><th>Field</th><th>Major Achievement</th><th>Quality</th></tr></thead>
+    <tbody>
+      <tr><td>Marie Curie</td><td>Science</td><td>Two Nobel Prizes</td><td>Determination</td></tr>
+      <tr><td>Kalpana Chawla</td><td>Space</td><td>NASA astronaut</td><td>Courage</td></tr>
+      <tr><td>Mary Kom</td><td>Sports</td><td>Six-time World Champion</td><td>Perseverance</td></tr>
+      <tr><td>Sudha Murty</td><td>Literature &amp; Social Work</td><td>Writing and social service</td><td>Kindness</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What These Four Women Teach Us</h2>
+  <p>Although these four women worked in completely different fields, their lives have some common lessons.</p>
+  <p><strong>First, they believed in learning.</strong> Marie Curie and Kalpana Chawla built their careers through education and scientific knowledge. Sudha Murty also placed great importance on education and reading.</p>
+  <p><strong>Second, they did not give up easily.</strong> Mary Kom had to work extremely hard to reach the highest level in boxing. Marie Curie also continued her research despite many difficulties.</p>
+  <p><strong>Third, they used their abilities in meaningful ways.</strong> Kalpana Chawla contributed to space research, Marie Curie contributed to science and medicine, Mary Kom inspired people through sport, and Sudha Murty used her knowledge and resources to support society.</p>
+  <p>Their achievements remind us that success is not always about becoming famous. A person can be successful by discovering something useful, representing a country, inspiring others or helping people.</p>
+
+  <h2>Conclusion</h2>
+  <p>The lives of Marie Curie, Kalpana Chawla, Mary Kom and Sudha Murty are different, but all four are examples of determination and hard work.</p>
+  <p>Marie Curie showed the importance of scientific curiosity. Kalpana Chawla showed the importance of having big dreams. Mary Kom showed the power of discipline and perseverance. Sudha Murty showed how education and success can be used to serve society.</p>
+  <p>I believe their stories are especially useful for students because we also face difficulties while studying and planning our future. These women remind us that difficulties should not make us give up.</p>
+  <p>Their achievements show that with <strong>education, courage, hard work and determination</strong>, it is possible to achieve great things.</p>
+  <p>They are not just famous women. They are examples of what a person can achieve when they believe in themselves and continue working towards their goals.</p>
+
+  <div class="sources">
+    <h2>Picture &amp; Reference Sources</h2>
+    <p class="small">The biographies and achievement details were checked against the official or primary sources listed below. The page uses linked image files so the photographs remain visible when this HTML is hosted on GitHub.</p>
+    <ul>
+      <li><a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/" target="_blank" rel="noopener">Nobel Prize — Marie Curie facts</a></li>
+      <li><a href="https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/photo-gallery/" target="_blank" rel="noopener">Nobel Prize — Marie Curie photo gallery</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Marie_Curie_1903.jpg" target="_blank" rel="noopener">Wikimedia Commons — Marie Curie 1903 portrait</a></li>
+      <li><a href="https://www.nasa.gov/image-article/kalpana-chawla/" target="_blank" rel="noopener">NASA — Kalpana Chawla</a></li>
+      <li><a href="https://www.nasa.gov/remembering-columbia-sts-107/" target="_blank" rel="noopener">NASA — Remembering Columbia STS-107</a></li>
+      <li><a href="https://boxingfederation.in/mc-mary-kom-51-kg/" target="_blank" rel="noopener">Boxing Federation of India — Mary Kom</a></li>
+      <li><a href="https://boxingfederation.in/mary-kom/" target="_blank" rel="noopener">Boxing Federation of India — Mary Kom profile</a></li>
+      <li><a href="https://sudhamurty.in/" target="_blank" rel="noopener">Sudha Murty — Official Website</a></li>
+      <li><a href="https://sudhamurty.in/about/journey/" target="_blank" rel="noopener">Sudha Murty — Journey</a></li>
+      <li><a href="https://indianexpress.com/article/lifestyle/fashion/sudha-murty-shopping-hasnt-bought-sari-in-30-years-9434702/" target="_blank" rel="noopener">The Indian Express — Sudha Murty photograph source</a></li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<div class="sources">
+<h2>References</h2>
+<p class="small">The poetry-form descriptions and terminology were checked against standard Poetry Foundation glossary material. The examples are included for study purposes.</p>
+<ul>
+<li><a href="https://www.poetryfoundation.org/education/glossary/sonnet" target="_blank" rel="noopener">Poetry Foundation — Sonnet</a></li>
+<li><a href="https://www.poetryfoundation.org/education/glossary/ode" target="_blank" rel="noopener">Poetry Foundation — Ode</a></li>
+<li><a href="https://www.poetryfoundation.org/education/glossary/Elegy" target="_blank" rel="noopener">Poetry Foundation — Elegy</a></li>
+<li><a href="https://www.poetryfoundation.org/education/glossary/ballad" target="_blank" rel="noopener">Poetry Foundation — Ballad</a></li>
+<li><a href="https://www.poetryfoundation.org/education/glossary/dramatic-monologue" target="_blank" rel="noopener">Poetry Foundation — Dramatic Monologue</a></li>
+<li><a href="https://www.poetryfoundation.org/education/glossary/free-verse" target="_blank" rel="noopener">Poetry Foundation — Free Verse</a></li>
+</ul>
+</div>
+</div>
+<script>
+</script>
+</main>
+
+<script>
+(function () {
+  function initAssignmentTabs() {
+    const tabs = Array.from(document.querySelectorAll('.tab[data-target]'));
+    const panels = Array.from(document.querySelectorAll('.topic-panel'));
+    if (!tabs.length || !panels.length) return;
+
+    function activate(targetId) {
+      tabs.forEach(function (tab) {
+        tab.classList.toggle('active', tab.dataset.target === targetId);
+      });
+      panels.forEach(function (panel) {
+        const active = panel.id === targetId;
+        panel.classList.toggle('hidden', !active);
+        panel.setAttribute('aria-hidden', active ? 'false' : 'true');
+      });
+      if (history.replaceState) history.replaceState(null, '', '#' + targetId);
+      else location.hash = targetId;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function (event) {
+        event.preventDefault();
+        activate(tab.dataset.target);
+      });
+    });
+
+    const hash = location.hash.slice(1);
+    const valid = panels.some(function (panel) { return panel.id === hash; });
+    activate(valid ? hash : 'topic15');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAssignmentTabs);
+  } else {
+    initAssignmentTabs();
+  }
+})();
+</script>
+
+</body>
+</html>
